@@ -1,0 +1,464 @@
+/*  <= Low PC */
+@media (max-width: 1239px){
+    .header__search-services-list {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .header__search-services-item {
+        margin-bottom: 2rem;
+    }
+
+    .header__search-services-item-link {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .content__intro-location-packages {
+        flex-direction: column;
+    }
+
+    .content__seperate-cover-header {
+        margin-left: 1rem;
+    }
+
+    .content__seperate-cover-button {
+        margin-top: 2rem;
+    }
+
+    .content__intro-location-blog-list {
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+
+    .content__intro-location-blog {
+        width: inherit;
+    }
+
+    .content__promotions-packages-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content__promotions-packages-item {
+        width: 37rem;
+        margin: 0 0 2rem 0;
+    }
+
+    .content__seperate-discover {
+        flex-direction: column;
+    }
+
+    .content__seperate-discover-cities,
+    .content__seperate-discover-nature {
+        width: 100%;
+    }
+
+    .content__promotions-packages-item {
+        margin-left: -3rem;
+    }
+
+    .hide-on-acept-low-pc {
+        display: none;
+    }
+}
+
+/* Low PC */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .content__destinations-packages-item {
+        width: 93rem;
+        height: 93rem;
+    }
+
+    .header__search-services-item {
+        width: 90rem;
+    }
+
+    .header__search-choose-list {
+        width: 93rem;
+    }
+
+    .content__seperate-cover-button {
+        width: 20rem;
+    }
+
+    .content__intro-location-cover-times {
+        width: 75rem;
+    }
+
+    .content__intro-location-container {
+        width: 75rem;
+    }
+    
+    .content__promotions-packages-item {
+        width: 93rem;
+    }
+
+    .content__promotions-packages-image {
+        width: 93rem;
+        height: 58rem;
+    }
+
+    .content__promotions-packages-container-service {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .content__promotions-packages-container-service-price {
+        padding-top: 1.2rem;
+    }
+
+    .footer__info-container {
+        width: 88.5rem ;
+        flex-direction: column;
+    }
+
+    .footer__info-container-conect {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__info-container-abouts-list {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .hide-on-low-pc {
+        display: none;
+    }
+}
+
+
+@media (min-width : 1024px) {
+    .header__mobile {display: none;}
+}
+
+/* Mobile and Tablet */
+@media (max-width : 1023px){
+    .sidebar {
+        display: none;
+    }
+
+    .header__mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3rem;
+        box-sizing: border-box;
+        width: 100%;
+        height: 12.5rem;
+        background-color: var(--heading-color);
+    }
+
+    .header__mobile-sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 30rem;
+        background-color: var(--heading-color);
+        z-index: 999999;
+        overflow-y: scroll;
+        transform: translateX(100%);
+        transition: all 0.8s;
+    }
+
+    .mobile-menu-input:checked ~ .header__mobile-sidebar {
+        display: unset;
+        transform: translateX(0);
+    }
+
+    .header__mobile-sidebar-nav-list {
+        margin: 3rem 0;
+        list-style: none;
+    }
+
+    .header__mobile-sidebar-nav-item {
+        margin-bottom: 3rem;
+    }   
+
+    .header__mobile-sidebar-nav-item-link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2.4rem;
+        line-height: 3rem;
+        font-family: poppinBold;
+        font-weight: 200;
+    }
+
+    .header__mobile-sidebar-subnav,
+    .header__mobile-sidebar-subnav2-list {
+        margin-left: -2rem;
+    }
+
+    .header__mobile-sidebar-subnav-item,
+    .header__mobile-sidebar-subnav2-item {
+        list-style: none;
+        padding: 1rem 0;
+    }
+
+    .header__mobile-sidebar-subnav-item-link,
+    .header__mobile-sidebar-subnav2-item-link {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #fff;
+        letter-spacing: 0.1rem;
+    }
+
+    .header__mobile-sidebar-close {
+        display: block;
+    }
+    
+
+    .header__search-heading{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header__search-choose-list {
+        padding: 0 3rem;
+    }
+
+    .content__seperate-cover{
+        flex-direction: column;
+    }
+
+    .content__promotions-packages-list {
+        padding-right: 1rem;
+    }
+
+    .footer__info-container {
+        flex-direction: column;
+    }
+    
+    .footer__info-container-conect {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer__info-container-abouts-list {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .footer__send-header {
+        flex-direction: column;
+    }
+
+    .footer__send-input {
+        justify-content: space-between;
+        padding-top: 6rem;
+    }
+
+    .footer__info-copy-right {
+        flex-direction: column;
+        line-height: 2.2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width : 1023px){
+
+    .header__search-services-item {
+        width: 68.8rem;
+    }
+
+    .header__search-services-item-link {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .header__search-choose-list {
+        width: 71.8rem;
+    }
+    
+    .content__destinations-packages-item {
+        width: 71.8rem;
+        height: 71.8rem;
+    }
+
+    .content__intro-location-container {
+        padding: 0 1rem;
+        width: 70rem;
+    }
+    
+    .header__search-choose-list {
+        width : 70rem;
+    }
+
+    .content__promotions-packages-item {
+        width: 71.8rem;
+    }
+
+    .content__promotions-packages-image {
+        width: 71.8rem;
+        height: 44.8rem;
+    }
+
+    .footer__info-container {
+        width: 71.8rem ;
+        flex-direction: column;
+    }
+
+    .footer__send {
+        width: 71.8rem ;
+    }
+
+    .footer__send-input-main {
+        width: 60rem;
+    }
+
+    .hide-on-tablet {
+        display: none;
+    }
+
+}
+
+/* Mobile */
+@media (max-width : 739px){
+    .html {
+        overflow: hidden;
+    }
+
+    .header__search {
+        padding: 10rem 4rem;
+    }
+
+    .header__search-check-best {
+        line-height: 3rem;
+        text-align: center;
+    }
+    .header__search-header-heading {
+        text-align: center;
+        display: flex;
+        line-height: 5rem;
+        padding-bottom: 2rem;
+    }
+
+
+    .header__search-services-item {
+        width: 27rem;
+    }
+
+    .content__seperate-cover-header-Holiday {
+        padding-top: 5rem;
+    }
+
+    .content__seperate-cover-button {
+        margin-top: 2rem;
+        margin-left: 6rem;
+    }
+
+    .content__destinations-packages-item {
+        width: 43rem;
+        height: 43rem;
+    }
+
+    .content__intro-location-container {
+        width: 100%;
+        padding: 0 2rem;
+        margin-right: 0;
+    }
+
+    .content__intro-location-cover {
+        width: 100%;
+    }
+
+    .content__intro-location-blog-list {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .content__intro-location-blog-item {
+        width: 40rem;
+    }
+
+    .content__intro-location-cover-times {
+        width: inherit;
+        height: 9rem;
+        box-sizing: border-box;
+    }
+
+    .content__seperate-cover-header {
+        margin: 0;
+    }
+
+    .content__seperate-cover-button {
+        margin-left: 0;
+    }
+
+    .content__seperate-cover-header--your{
+        text-align: center;
+    }
+
+    .content__seperate-cover-header--after {
+        align-items: center;
+    }
+
+    .intro-location-cover-separate {
+        display: none;
+    }
+
+    .intro-location-cover-col {
+        padding-right: 2rem;
+    }
+
+    .intro-location-cover-col:last-child {
+        padding-right: 0;
+    }
+
+    .intro-location-cover-days-number {
+        font-size: 3rem;
+    }
+    
+    .intro-location-cover-days-name {
+        font-size: 1.2rem;
+    }
+
+    .header__search-choose-list {
+        width: 27rem;
+    }
+
+    .footer__packages {
+        width: 34rem;
+    }
+    
+    .footer__info-container {
+        width: 34rem ;
+        flex-direction: column;
+    }
+
+    .footer__send-button {
+        width: 100%;
+    }
+
+    .footer__send-input {
+        flex-direction: column;
+        width: 34rem;
+    }
+
+    .footer__send-input-main {
+        margin-bottom: 5rem;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+}
+
+
+
