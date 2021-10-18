@@ -299,6 +299,7 @@ html {
 
 .header {
     background: url(../img/parallax-search-2.jpg) center / cover no-repeat;
+    backbround-attackment : fixed;
     width: 100%;
     display: flex;
     justify-content: center;
