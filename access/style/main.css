@@ -299,7 +299,7 @@ html {
 
 .header {
     background: url(../img/parallax-search-2.jpg) center / cover no-repeat;
-    backbround-attachment : fixed;
+    background-attachment : fixed;
     width: 100%;
     display: flex;
     justify-content: center;
